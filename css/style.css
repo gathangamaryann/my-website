@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none; 
+    box-sizing: border-box;
+    background-color:darkolivegreen;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background:darkolivegreen;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  
+  section{
+    background: url(lucie-morel-DsWjM4iOmyA-unsplash.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat:repeat;
+    height:80vh;
+    
+  }
+  .active{
+    display: flex;
+  }  
+
+  #footer{
+    background-color:black(7, 6, 6);
+    position: relative;
+    height: 100px;
+    margin-top: 80px;
+    text-align: center;
+}
+#footer p{
+    text-align: center;
+    color: white;
+}
+iframe{
+    text-align: center;
+    margin-left: 100%;
+    color: white;
+}
+
+ 
