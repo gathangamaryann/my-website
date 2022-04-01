@@ -4,18 +4,18 @@
     text-decoration: none;
     list-style: none; 
     box-sizing: border-box;
-    background-color:darkolivegreen;
+    background-color:white;
   }
   body{
     font-family: montserrat;
   }
   nav{
-    background:darkolivegreen;
+    background:white;
     height: 80px;
     width: 100%;
   }
   label.logo{
-    color: white;
+    color:black;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -31,7 +31,7 @@
     margin: 0 5px;
   }
   nav ul li a{
-    color: white;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -51,17 +51,11 @@
     display: flex;
   }  
 
-  #footer{
-    background-color:black(7, 6, 6);
-    position: relative;
-    height: 100px;
-    margin-top: 80px;
+  footer{
     text-align: center;
-}
-#footer p{
-    text-align: center;
-    color: white;
-}
+    color:black;
+  }
+
 iframe{
     text-align: center;
     margin-left: 100%;
